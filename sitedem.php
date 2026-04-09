@@ -1,0 +1,58 @@
+<?php
+?>
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Groupe Gefor - Connexion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sitedem.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Groupe gefor</h1>
+        <button class="top-btn">S'inscrire / Connexion</button>
+    </header>
+
+    <div class="login-wrapper">
+
+        <div class="login-card">
+
+            <!-- Cercle photo profil -->
+            <div class="profile-circle">
+                <img src="https://i.pravatar.cc/300" alt="Photo de profil">
+            </div>
+
+            <h2>Connexion</h2>
+
+            <div class="input-group">
+                <label>Identifiant *</label>
+                <input type="text" id="username">
+            </div>
+
+            <div class="input-group">
+                <label>Mot de passe *</label>
+                <input type="password" id="password">
+                <span class="forgot" onclick="forgotPassword()">Mot de passe oublié ?</span>
+            </div>
+
+            <button class="login-btn" onclick="login()">Connexion</button>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <span>Instagram</span>
+        <span>Facebook</span>
+        <span>LinkedIn</span>
+    </footer>
+
+    <script src="sitedem.js"></script>
+</body>
+
+</html>
